@@ -10,7 +10,7 @@
 #   - translation filenames have to be changed
 
 # The name of your application
-TARGET = harbour-advanced-camera
+TARGET = org.harbour.advancedcamera
 
 CONFIG += sailfishapp
 
@@ -33,6 +33,7 @@ SOURCES += src/harbour-advanced-camera.cpp \
 
 DISTFILES += \
     README.md \
+    org.harbour.advancedcamera.desktop \
     qml/pics/icon-m-tele-lense-active.png \
     qml/pics/icon-m-tele-lense.svg \
     qml/pics/icon-m-uwide-lense-active.png \
@@ -45,7 +46,6 @@ DISTFILES += \
     rpm/harbour-advanced-camera.changes.run.in \
     rpm/harbour-advanced-camera.spec \
     translations/*.ts \
-    harbour-advanced-camera.desktop \
     qml/harbour-advanced-camera.qml \
     qml/components/DockedListView.qml \
     qml/components/IconSwitch.qml \
